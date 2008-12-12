@@ -1,0 +1,5 @@
+[Windows]
+ bin = shutdown.exe
+
+[Linux]
+ bin = shutdown

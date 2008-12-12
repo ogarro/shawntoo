@@ -1,0 +1,8 @@
+[Windows]
+ ipconfig
+
+[Linux]
+ ifup
+ ifdown
+ ifconfig
+ iwconfig
