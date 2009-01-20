@@ -1,0 +1,8 @@
+[Windows]
+ ipconfig
+ net use n: \\computername\share
+
+[Linux]
+ ifconfig
+ iwconfig
+ ssh -2 -X user@hostname.dom

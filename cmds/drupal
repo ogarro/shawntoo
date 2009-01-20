@@ -1,0 +1,1 @@
+tar -u -f backup-x.xx.tar -v /home/htdocs/{sites,modules,files,favicon.ico}
