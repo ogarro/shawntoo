@@ -1,6 +1,6 @@
+mpg123-alsa		install
 xserver-xorg		install
 popularity-contest		install
-linux-headers-2.6.27-9-generic		install
 x11-apps		install
 libmono-addins-gui0.2-cil		install
 python-crypto		install
@@ -13,6 +13,7 @@ sane-utils		install
 gnome-keyring		install
 ttf-bitstream-vera		install
 f-spot		install
+libpopt-dev		install
 libkeyutils1		install
 nathive		install
 libstrigiqtdbusclient0		install
@@ -21,6 +22,7 @@ aspell-en		install
 meld		install
 libpci3		install
 dmsetup		install
+python-fstab		install
 libedit2		install
 libgtk2.0-common		install
 libclucene0ldbl		install
@@ -32,8 +34,10 @@ evolution-common		install
 mesa-utils		install
 libsdl1.2debian		install
 libfreebob0		install
+libglib1.2ldbl		install
 xserver-xorg-video-rendition		install
 libgnomekbd3		install
+gnome-do		install
 libsm-dev		install
 libatk1.0-0		install
 python-zopeinterface		install
@@ -100,12 +104,15 @@ liblzo1		install
 pnm2ppa		install
 disksearch		install
 libusplash0		install
+sharutils		install
 mlocate		install
 vim-common		install
 xserver-xorg-input-evdev		install
 libcompress-raw-zlib-perl		install
 cupsys-common		install
+linux-restricted-modules-2.6.27-11-generic		install
 libice-dev		install
+libimlib2-dev		install
 gstreamer0.10-x		install
 automake1.4		install
 libcompizconfig0		install
@@ -113,10 +120,13 @@ openoffice.org-core		install
 libarchive1		install
 update-manager		install
 libsword6		install
+gnome-do-plugins		install
 libavutil49		install
 libglitz-glx1		install
+system-cleaner-gtk		install
 libqt4-assistant		install
 gs-esp		install
+debootstrap		install
 libmono-data-tds2.0-cil		install
 libpth20		install
 python-gnome2		install
@@ -124,6 +134,7 @@ gnome-nettool		install
 python-support		install
 libxcb-render-util0		install
 base-files		install
+bochsbios		install
 libgphoto2-port0		install
 libxpp3-java		install
 libgcj7-0		install
@@ -148,6 +159,7 @@ libparted1.8-9		install
 libdc1394-22		install
 bind9-host		install
 pidgin-facebookchat		install
+python-libxslt1		install
 python-notify		install
 bluez-gstreamer		install
 xfonts-scalable		install
@@ -157,6 +169,7 @@ gimp-help-en		install
 libmono0		install
 libglade2.0-cil		install
 mime-support		install
+linux-image-2.6.27-11-generic		install
 procps		install
 language-pack-en-base		install
 gamin		install
@@ -188,6 +201,8 @@ pkg-config		install
 libapparmor1		install
 libbabl-0.0-0		install
 libgcj-bc		install
+linux-headers-2.6.27-11		install
+python-libvirt		install
 libraw1394-8		install
 linux		install
 telnet		install
@@ -216,6 +231,7 @@ libgconf2-ruby		install
 libdjvulibre21		install
 libwmf0.2-7		install
 x11proto-kb-dev		install
+libclutter-gtk-0.8-0		install
 gnome-settings-daemon		install
 obex-data-server		install
 libcompress-zlib-perl		install
@@ -225,6 +241,7 @@ libmono-sharpzip0.84-cil		install
 libglib2.0-dev		install
 language-support-writing-en		install
 wireless-tools		install
+lvm2		install
 librdf0		install
 libhfsp0		install
 libmono-nunit2.2-cil		install
@@ -239,11 +256,11 @@ whiptail		install
 ttf-thai-tlwg		install
 brother-cups-wrapper-extra		install
 libgnome-mag2		install
+libgtk1.2		install
 ttf-kochi-mincho		install
 libsoundtouch1c2		install
 libvorbisfile3		install
 nmap		install
-linux-headers-2.6.27-9		install
 xserver-xorg-video-tdfx		install
 libgda3-common		install
 ubuntu-standard		install
@@ -318,6 +335,7 @@ libsilc-1.1-2		install
 libbeecrypt6		install
 fortunes-min		install
 xserver-xorg-video-fbdev		install
+comerr-dev		install
 libsvga1		install
 libgfortran3		install
 update-manager-core		install
@@ -408,12 +426,14 @@ gnome-menus		install
 kdelibs5		install
 liblircclient0		install
 xdg-user-dirs-gtk		install
+libtagc0		install
 libxcb-xv0		install
 python-gtksourceview2		install
 gtk2-engines-pixbuf		install
 bluez-cups		install
 xserver-xorg-input-vmmouse		install
 readahead		install
+libtagc0-dev		install
 phonon		install
 hunspell-en-us		install
 x11-xserver-utils		install
@@ -427,6 +447,9 @@ libpam-gnome-keyring		install
 libklibc		install
 python-numeric		install
 libglu1-mesa		install
+bridge-utils		install
+qemu		install
+libid3tag0-dev		install
 libio-compress-base-perl		install
 xserver-xorg-input-mouse		install
 cups-client		install
@@ -445,6 +468,7 @@ libgoocanvas-common		install
 libatk1-ruby1.8		install
 libmagick10		install
 latex-xft-fonts		install
+libglib1.2-dev		install
 libpcap0.8		install
 lockfile-progs		install
 libx86-1		install
@@ -470,14 +494,18 @@ libxi-dev		install
 xutils		install
 hplip		install
 acpi		install
+synce-kpm		install
 libcamel1.2-14		install
 m4		install
 dc		install
 libbonoboui2-0		install
 gconf2		install
+libobby-0.4-1		install
 at		install
 openssl-blacklist		install
 strace		install
+librra0		install
+libsqlite3-dev		install
 java-common		install
 dosfstools		install
 ed		install
@@ -493,6 +521,7 @@ libesd-alsa0		install
 gnome-themes		install
 command-not-found-data		install
 update-notifier-common		install
+libxmu-headers		install
 libxslt1.1		install
 libxrender-dev		install
 libpostproc51		install
@@ -500,6 +529,7 @@ gbrainy		install
 libtrackerclient0		install
 metacity-common		install
 seahorse		install
+libnet6-1.3-0		install
 libwvstreams4.4-extras		install
 xserver-xorg-video-vesa		install
 openoffice.org-hyphenation-en-us		install
@@ -524,6 +554,7 @@ apt-xapian-index		install
 libnspr4-0d		install
 xserver-xorg-video-siliconmotion		install
 leafpad		install
+giblib-dev		install
 libsqlite0		install
 libgtkhtml-editor0		install
 libslp1		install
@@ -542,7 +573,6 @@ libgnome2-ruby1.8		install
 libtotem-plparser12		install
 thunderbird-locale-en-gb		install
 xserver-xorg-video-sis		install
-libboost-thread1.34.1		install
 libsgutils1		install
 9base		install
 python-pyorbit		install
@@ -571,6 +601,7 @@ liberror-perl		install
 gnome-pilot		install
 vinagre		install
 dhcp3-common		install
+libgnet2.0-0		install
 swfdec-gnome		install
 libpulse-mainloop-glib0		install
 libedata-cal1.2-6		install
@@ -584,6 +615,7 @@ libgvfscommon0		install
 gnumeric-common		install
 openoffice.org-l10n-common		install
 klibc-utils		install
+libtag1-dev		install
 libsmbios2		install
 xserver-xorg-video-vga		install
 alsa-oss		install
@@ -596,6 +628,8 @@ libxine1-bin		install
 libexiv2-4		install
 libxdmcp-dev		install
 libpt-1.10.10		install
+synce-serial		install
+libkrb5-dev		install
 apport		install
 liblucene2-java		install
 libvorbisenc2		install
@@ -611,11 +645,11 @@ python2.4-minimal		install
 seahorse-plugins		install
 login		install
 gnome-media-common		install
-libboost-date-time1.34.1		install
 librpc-xml-perl		install
 librasqal0		install
 nautilus-data		install
 libgpod3		install
+ftpmirror		install
 mtools		install
 bluez		install
 libxmuu1		install
@@ -623,16 +657,19 @@ libtext-charwidth-perl		install
 libpango1.0-common		install
 libgnome-menu2		install
 libcwidget3		install
+python-rtfcomp		install
 pidgin-data		install
 python2.4		install
 python2.5		install
 libruby		install
+virt-manager		install
 libscim8c2a		install
 libcurl3-gnutls		install
 ttf-lao		install
 hwtest-gtk		install
 libcurses-ui-perl		install
 libtasn1-2		install
+libclutter-0.8-0		install
 libtasn1-3		install
 gstreamer0.10-plugins-good		install
 usplash-theme-ubuntu		install
@@ -659,6 +696,7 @@ mono-common		install
 e2fsprogs		install
 parted		install
 libwavpack1		install
+libldap2-dev		install
 libpng12-dev		install
 libpaper-utils		install
 libxml-parser-perl		install
@@ -680,6 +718,7 @@ ttf-kochi-gothic		install
 libkrb53		install
 system-tools-backends		install
 binutils-static		install
+libgif-dev		install
 xserver-xorg-video-tseng		install
 libgweather1		install
 libpciaccess0		install
@@ -708,6 +747,7 @@ libloudmouth1-0		install
 libgnome-desktop-2-7		install
 tasks-hildon		install
 libnss-mdns		install
+dnsmasq-base		install
 initramfs-tools		install
 vim-tiny		install
 libck-connector0		install
@@ -729,6 +769,7 @@ libdirectfb-1.0-0		install
 jockey-common		install
 xtrans-dev		install
 xkb-data		install
+libsynce0		install
 fontconfig		install
 intltool		install
 python-gtkhtml2		install
@@ -737,6 +778,7 @@ ruby1.8		install
 libwnck22		install
 python-serial		install
 xfonts-75dpi		install
+libtool		install
 scim-gtk2-immodule		install
 reiserfsprogs		install
 libgnomekbd-common		install
@@ -782,6 +824,7 @@ libgnomecanvas2-ruby1.8		install
 brother-lpr-drivers-extra		install
 libxres1		install
 prism-google-calendar		install
+python-rapi2		install
 links2		install
 readline-common		install
 dbus		install
@@ -801,6 +844,7 @@ python-celementtree		install
 libqt4-help		install
 glipper		install
 libmono-addins0.2-cil		install
+synce-sync-engine		install
 libmusicbrainz4c2a		install
 gnome-orca		install
 linux-image		install
@@ -821,6 +865,7 @@ firefox		install
 xbitmaps		install
 mysql-navigator		install
 libdrm2		install
+libvirt0		install
 ruby		install
 libgp11-0		install
 libcommons-logging-java		install
@@ -837,6 +882,7 @@ libmono-winforms2.0-cil		install
 libqt4-webkit		install
 kdebase-runtime-bin-kde4		install
 libxau6		install
+vde2		install
 nautilus-cd-burner		install
 liblwres40		install
 libexempi3		install
@@ -846,6 +892,7 @@ libgda3-sqlite		install
 libxaw7		install
 bum		install
 libcommons-codec-java		install
+python-tz		install
 libhunspell-1.2-0		install
 gtk2-engines		install
 libgnomeprint2.2-data		install
@@ -858,6 +905,7 @@ libmono-system1.0-cil		install
 libgtksourceview2.0-common		install
 netcat		install
 python-imaging		install
+python-rra		install
 librpm4.4		install
 libkpathsea4		install
 libijs-0.35		install
@@ -886,6 +934,7 @@ screensaver-default-images		install
 libavc1394-0		install
 libgtksourceview2.0-0		install
 libsigc++-2.0-0c2a		install
+libxen3		install
 hal		install
 libaiksaurus-1.2-data		install
 libmono-cecil0.5-cil		install
@@ -897,11 +946,13 @@ libgnome2-vfs-perl		install
 libavahi-gobject0		install
 dwm		install
 libgcj-common		install
+odccm		install
 libwv-1.2-3		install
 libgnomecanvas2-0		install
 libept0		install
 openoffice.org-common		install
 python-glade2		install
+python-qt4-dbus		install
 libgif4		install
 x11proto-randr-dev		install
 libegroupwise1.2-12		install
@@ -937,6 +988,8 @@ pciutils		install
 openjdk-6-jre-headless		install
 libdbus-1-dev		install
 gnome-spell		install
+libxslt1-dev		install
+giblib1		install
 giggle		install
 bug-buddy		install
 libwxbase2.6-0		install
@@ -946,7 +999,9 @@ libxcb-render-util0-dev		install
 espeak-data		install
 launchpad-integration		install
 libgtk2.0-cil		install
+libssl-dev		install
 kbd		install
+vgabios		install
 dictionaries-common		install
 mono-gac		install
 libnm-glib0		install
@@ -955,6 +1010,7 @@ python-vte		install
 unattended-upgrades		install
 libggz2		install
 libxcb-shape0		install
+libxt-dev		install
 libgtk2.0-dev		install
 language-selector		install
 libvte9		install
@@ -964,6 +1020,7 @@ splix		install
 libgnomeui-0		install
 startup-tasks		install
 gnome-doc-utils		install
+libxmu-dev		install
 alsa-utils		install
 ttf-opensymbol		install
 libgtk2-perl		install
@@ -986,6 +1043,7 @@ libgconf2-ruby1.8		install
 libopenexr6		install
 linux-restricted-modules		install
 python-central		install
+libjpeg62-dev		install
 cron		install
 at-spi		install
 libpoppler3		install
@@ -1033,6 +1091,7 @@ gnome-keyring-manager		install
 mousetweaks		install
 gnome-system-monitor		install
 cupsys-driver-gutenprint		install
+kvm		install
 libbind9-40		install
 system-config-printer-common		install
 openjdk-6-jre-lib		install
@@ -1067,8 +1126,8 @@ lxappearance		install
 libsamplerate0		install
 libbonobo2-0		install
 libglade2-0		install
-mozilla-plugin-gnash		install
 human-icon-theme		install
+system-cleaner		install
 openoffice.org-hyphenation		install
 python-problem-report		install
 evince		install
@@ -1093,12 +1152,16 @@ pm-utils		install
 file		install
 pulseaudio-module-lirc		install
 ntp		install
+libxml2-dev		install
 x11proto-input-dev		install
+libungif4-dev		install
+libtiff4-dev		install
 python-pysqlite2		install
 gnome-app-install		install
 libqt4-sql		install
 pulseaudio-utils		install
 gnome-user-guide		install
+libltdl7-dev		install
 libasound2		install
 libmono-system-data1.0-cil		install
 fglrx-modaliases		install
@@ -1113,6 +1176,7 @@ libqt4-svg		install
 libgpg-error0		install
 apturl		install
 im-switch		install
+linux-headers-2.6.27-11-generic		install
 ppp		install
 phonon-backend-gstreamer		install
 xdg-utils		install
@@ -1125,6 +1189,7 @@ adduser		install
 libxrender1		install
 xinit		install
 iputils-arping		install
+libwnck2.20-cil		install
 ttf-malayalam-fonts		install
 libswfdec-0.8-0		install
 wily		install
@@ -1152,6 +1217,7 @@ system-services		install
 libwbclient0		install
 libmono-sharpzip2.84-cil		install
 libtimedate-perl		install
+giver		install
 libxau-dev		install
 dpkg-dev		install
 rpm		install
@@ -1204,7 +1270,10 @@ gray-theme		install
 libgnomevfs2-extra		install
 gconf2-common		install
 libgs8		install
+libgtk1.2-dev		install
 libdb-je-java		install
+netbook-launcher		install
+python-gtk-vnc		install
 gimp		install
 update-motd		install
 vim		install
@@ -1231,6 +1300,7 @@ software-properties-gtk		install
 libcanberra-gnome		install
 cupsddk-drivers		install
 python2.5-minimal		install
+libasound2-dev		install
 libxcb-xlib0		install
 libjasper1		install
 drawterm		install
@@ -1239,6 +1309,7 @@ gitk		install
 libgtop2-7		install
 automake		install
 libqt4-network		install
+libgtk1.2-common		install
 libpng12-0		install
 upstart-logd		install
 firefox-3.0-gnome-support		install
@@ -1246,15 +1317,18 @@ libgimp2.0		install
 ttf-dejavu		install
 xserver-xorg-video-i128		install
 libjpeg62		install
+libvdemgmt0		install
 libtext-wrapi18n-perl		install
 libgtkhtml-editor-common		install
 libqt4-designer		install
 libmpfr1ldbl		install
 xserver-xorg-video-neomagic		install
+python-setuptools		install
 yelp		install
 xfonts-utils		install
 mono-runtime		install
 libperl5.10		install
+libtiffxx0c2		install
 xserver-xorg-video-chips		install
 pulseaudio-module-zeroconf		install
 gpicview		install
@@ -1266,6 +1340,7 @@ libvolume-id0		install
 console-setup		install
 libcdio-paranoia0		install
 libnewt0.52		install
+libxml++2.6-2		install
 console-common		install
 libgmime-2.0-2a		install
 wpasupplicant		install
@@ -1297,26 +1372,29 @@ libsidplay1		install
 libasound2-plugins		install
 libxrandr-dev		install
 kdelibs-bin		install
-gnash		install
 usbutils		install
 wireshark		install
 libfreezethaw-perl		install
 myspell-en-gb		install
 libxvmc1		install
 libeel2-2		install
+libkadm55		install
 belocs-locales-bin		install
 libuuid1		install
 swfdec-mozilla		install
 zip		install
 python-gdbm		install
+qemulator		install
 libgl1-mesa-dri		install
 python-cups		install
 gnome-mime-data		install
+libavahi1.0-cil		install
 libexpat1-dev		install
 libavahi-client3		install
 rhino		install
 alsa-base		install
 libc6-dev		install
+librapi2		install
 libqtgui4		install
 libmono-accessibility2.0-cil		install
 screen-resolution-extra		install
@@ -1344,6 +1422,7 @@ libxplc0.3.13		install
 khelpcenter4		install
 liblua5.1-0		install
 language-selector-common		install
+mpg123		install
 ghostscript		install
 libtag1c2a		install
 sshmenu		install
@@ -1376,8 +1455,10 @@ fbdesk		install
 gnome-applets		install
 libgksu2-0		install
 poppler-utils		install
+libmpg123-0		install
 sgml-data		install
 libssl0.9.8		install
+gobby		install
 libmad0		install
 gstreamer0.10-plugins-base-apps		install
 skype-common		install
@@ -1400,6 +1481,7 @@ mediatomb-daemon		install
 xorg		install
 foomatic-db		install
 libart2-ruby1.8		install
+mpg321		install
 libsasl2-2		install
 lxpanel		install
 libgtk2-ruby1.8		install
@@ -1412,6 +1494,7 @@ libpt-1.10.10-plugins-v4l		install
 libgpgme11		install
 openoffice.org-l10n-en-gb		install
 libjtidy-java		install
+librsvg2-dev		install
 python-gmenu		install
 debconf		install
 git-core		install
@@ -1486,6 +1569,7 @@ libgtk2-ruby		install
 ltrace		install
 patch		install
 python-elementtree		install
+libmimedir0		install
 sysinfo		install
 libpulse-browse0		install
 gnome-panel		install
@@ -1505,9 +1589,10 @@ libxcb-render0-dev		install
 fuse-utils		install
 ttf-unfonts-core		install
 hotkey-setup		install
+hamster-applet		install
 libruby1.8		install
+libpam0g-dev		install
 info		install
-gnash-common		install
 libgsl0ldbl		install
 libvisual-0.4-0		install
 python-apport		install
@@ -1525,6 +1610,7 @@ python-xkit		install
 sqlite3		install
 legacyhuman-theme		install
 busybox-initramfs		install
+esound-clients		install
 python-xlib		install
 libqt4-script		install
 dbus-x11		install
@@ -1532,9 +1618,11 @@ libxi6		install
 ca-certificates-java		install
 gstreamer0.10-gnomevfs		install
 libvorbis0a		install
+libvirt-bin		install
 cupsys		install
 compiz-core		install
 totem		install
+librtfcomp0		install
 bogofilter-common		install
 libxcb1-dev		install
 gnome-accessibility-themes		install
@@ -1592,6 +1680,7 @@ inkscape		install
 libxext6		install
 libavahi-ui0		install
 hildon-update-category-database		install
+file-browser-applet		install
 libgstreamer-plugins-base0.10-0		install
 raptor-utils		install
 transmission-common		install
@@ -1635,6 +1724,7 @@ liballegro4.2		install
 x-ttcidfont-conf		install
 libsndfile1		install
 libpolkit-grant2		install
+python-virtinst		install
 linux-firmware		install
 libpango1-ruby1.8		install
 libsys-hostname-long-perl		install
@@ -1655,8 +1745,10 @@ libmono-system2.0-cil		install
 make		install
 mediatomb-common		install
 libgdl-1-0		install
+netcat-openbsd		install
 pulseaudio-esound-compat		install
 libgnome2-canvas-perl		install
+libidn11-dev		install
 klogd		install
 libgtkhtml3.14-19		install
 libgnomeprintui2.2-common		install
@@ -1669,6 +1761,7 @@ gstreamer0.10-schroedinger		install
 monodevelop		install
 gsfonts		install
 libxkbfile1		install
+libbz2-dev		install
 file-roller		install
 libgdiplus		install
 conduit		install
@@ -1692,6 +1785,8 @@ python-rdflib		install
 python-kde4		install
 gnome-panel-data		install
 scim-bridge-client-gtk		install
+libgnomedesktop2.20-cil		install
+libcurl4-openssl-dev		install
 libpoppler-glib3		install
 ssh-askpass-gnome		install
 xserver-xorg-video-cirrus		install
@@ -1703,7 +1798,9 @@ qt4-qtconfig		install
 libgnomecups1.0-1		install
 gnupg		install
 libpisync1		install
+python-urlgrabber		install
 libntfs-3g28		install
+libvdeplug2		install
 hplip-data		install
 python-gobject		install
 lftp		install
@@ -1725,5 +1822,6 @@ build-essential		install
 liba52-0.7.4		install
 consolekit		install
 homebank-data		install
+libxkbfile-dev		install
 libxine1		install
 xutils-dev		install
