@@ -1,0 +1,18 @@
+## Ubuntu
+deb http://us.archive.ubuntu.com/ubuntu/ intrepid main restricted universe multiverse
+
+## Updates
+deb http://us.archive.ubuntu.com/ubuntu/ intrepid-updates main restricted universe multiverse
+
+## Backports
+
+## Security Updates
+deb http://us.archive.ubuntu.com/ubuntu/ intrepid-security main restricted universe multiverse
+
+
+# deb http://ppa.launchpad.net/tasque-packagers/ubuntu hardy main
+deb http://cafelinux.org/Downloads/oz-os tinwoodman main
+deb http://ppa.launchpad.net/vala-team/ppa/ubuntu intrepid main
+deb http://ppa.launchpad.net/network-manager/ubuntu intrepid main
+deb http://ppa.launchpad.net/globalmenu-team/ubuntu intrepid main
+deb http://ppa.launchpad.net/do-core/ppa/ubuntu intrepid main
