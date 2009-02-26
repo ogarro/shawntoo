@@ -467,6 +467,7 @@ libgnokii3		install
 libsasl2-modules		install
 libbonoboui2-common		install
 mysql-gui-tools-common		install
+xclip		install
 libspeex1		install
 scim-tables-additional		install
 libapm1		install
@@ -640,6 +641,7 @@ php5-gd		install
 libsoup2.4-1		install
 xserver-xorg-video-nv		install
 dcraw		install
+sobby		install
 python-exo		install
 libgadu3		install
 gnome-terminal		install
@@ -953,6 +955,7 @@ libxft2		install
 pciutils		install
 xfce4-screenshooter-plugin		install
 gnome-spell		install
+giggle		install
 bug-buddy		install
 libwxbase2.6-0		install
 console-tools		install
@@ -1039,8 +1042,8 @@ gaim		install
 libgtksourceview-common		install
 libpolkit-dbus2		install
 dpkg		install
-rsync		install
 libhal-storage1		install
+rsync		install
 libjline-java		install
 vino		install
 openbsd-inetd		install
@@ -1247,8 +1250,8 @@ remuco-server-rhythmbox		install
 libjasper1		install
 libqt3-mt-psql		install
 libmozjs0d		install
-gitk		install
 libgtop2-7		install
+gitk		install
 libpng12-0		install
 xgc		install
 upstart-logd		install
@@ -1663,8 +1666,8 @@ xserver-xorg-video-imstt		install
 dmidecode		install
 language-pack-gnome-en		install
 ttf-sil-doulos		install
-totem-mozilla		install
 awn-manager		install
+totem-mozilla		install
 xarchiver		install
 libmng1		install
 libcucul0		install
@@ -1703,9 +1706,9 @@ compiz-gnome		install
 app-install-data-commercial		install
 libthunar-vfs-1-2		install
 libltdl3		install
-less		install
 nautilus-sendto		install
 kturtle		install
+less		install
 gimmie		install
 libpaper1		install
 transmission-gtk		install
@@ -1717,8 +1720,8 @@ libdshconfig1		install
 scim-bridge-client-gtk		install
 libpoppler-glib2		install
 ssh-askpass-gnome		install
-libdigest-sha1-perl		install
 xserver-xorg-video-cirrus		install
+libdigest-sha1-perl		install
 o3read		install
 libntfs-3g23		install
 sound-juicer		install
