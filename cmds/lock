@@ -1,0 +1,6 @@
+[Windows]
+ keys = Win+L
+ bin = 
+
+[Linux]
+ bin = gnome-screensaver-command -l

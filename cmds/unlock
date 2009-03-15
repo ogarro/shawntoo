@@ -1,0 +1,6 @@
+[Windows]
+ bin = 
+
+[Linux]
+ bin = gnome-screensaver-command -d
+

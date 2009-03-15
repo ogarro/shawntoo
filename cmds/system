@@ -1,0 +1,7 @@
+[Windows]
+ cmd = chkdsk /r
+ cmd = sfc /scannow
+
+[Linux]
+ cmd = dpkg --configure -a
+ 
