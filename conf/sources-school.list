@@ -1,0 +1,49 @@
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu/ gutsy main restricted multiverse
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team, and may not be under a free licence. Please satisfy yourself as to
+## your rights to use the software. Also, please note that software in
+## universe WILL NOT receive any review or updates from the Ubuntu security
+## team.
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu/ gutsy universe
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty universe
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu 
+## team, and may not be under a free licence. Please satisfy yourself as to 
+## your rights to use the software. Also, please note that software in 
+## multiverse WILL NOT receive any review or updates from the Ubuntu
+## security team.
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu/ gusty multiverse
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty multiverse
+
+## Uncomment the following two lines to add software from the 'backports'
+## repository.
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+# deb http://us.archive.ubuntu.com/ubuntu/ feisty-backports main restricted universe multiverse
+# deb-src http://us.archive.ubuntu.com/ubuntu/ feisty-backports main restricted universe multiverse
+
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security main restricted
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security main restricted
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security universe
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security universe
+# deb ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security multiverse
+# deb-src ftp://ftp.gtlib.gatech.edu/pub/ubuntu feisty-security multiverse
+# deb http://people.freedesktop.org/~whot/mpx feisty/
+deb http://archive.ubuntu.com/ubuntu/ hardy-updates restricted main multiverse universe
+deb http://archive.ubuntu.com/ubuntu/ hardy-proposed restricted main multiverse universe
+# deb http://ubuntu.org.ua/ getdeb/
+deb http://security.ubuntu.com/ubuntu/ hardy-security restricted main multiverse universe
+# deb http://apt.linex.org/linex2006 sarge linex2006
+# deb http://ppa.launchpad.net/tasque-packagers/ubuntu hardy main
+# deb http://us.archive.ubuntu.com/ubuntu intrepid main
