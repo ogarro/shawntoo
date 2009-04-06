@@ -4,6 +4,7 @@ x11-apps		install
 libmono-addins-gui0.2-cil		install
 sg3-utils		install
 python-crypto		install
+libopenal1		install
 lilo		install
 bluez-gnome		install
 sane-utils		install
@@ -83,6 +84,7 @@ mlocate		install
 vim-common		install
 xserver-xorg-input-evdev		install
 libcompress-raw-zlib-perl		install
+libitalc		install
 linux-restricted-modules-2.6.27-11-generic		install
 lupin-casper		install
 gstreamer0.10-x		install
@@ -123,6 +125,7 @@ hal-cups-utils		install
 libparted1.8-9		install
 libdc1394-22		install
 bind9-host		install
+linux-backports-modules-intrepid		install
 python-notify		install
 bluez-gstreamer		install
 xfonts-scalable		install
@@ -217,6 +220,7 @@ ubuntu-gdm-themes		install
 gucharmap		install
 brltty-x11		install
 python-gnomecanvas		install
+fgfs-base		install
 network-manager		install
 iputils-tracepath		install
 zenity		install
@@ -261,6 +265,7 @@ jfsutils		install
 puppet		install
 mdetect		install
 openoffice.org-gtk		install
+librsvg2-2.18-cil		install
 libsilc-1.1-2		install
 fortunes-min		install
 xserver-xorg-video-fbdev		install
@@ -299,12 +304,15 @@ libdbus-glib-1-2		install
 libapparmor-perl		install
 x11-xfs-utils		install
 cli-common		install
+libqt4-sql-mysql		install
 libglew1.5		install
 ggzcore-bin		install
+libqt4-dbus		install
 libwpg-0.1-1		install
 language-pack-gnome-pt-base		install
 gnome-mag		install
 gnome-screensaver		install
+qstat		install
 libgtksourceview1.0-0		install
 rhythmbox		install
 xserver-xorg-video-v4l		install
@@ -327,6 +335,7 @@ libnm-util0		install
 language-support-translations-en		install
 python-libxml2		install
 gedit		install
+libnm-util1		install
 libdecoration0		install
 gnome-menus		install
 liblircclient0		install
@@ -359,6 +368,7 @@ xserver-xorg-video-r128		install
 rarian-compat		install
 libieee1284-3		install
 logrotate		install
+libqt4-qt3support		install
 xserver-common		install
 libmagick10		install
 ubuntu-artwork		install
@@ -397,6 +407,7 @@ xauth		install
 compizconfig-backend-gconf		install
 libwnck-common		install
 libpt-1.10.10-plugins-alsa		install
+libapr1		install
 xserver-xorg-video-openchrome		install
 libesd-alsa0		install
 gnome-themes		install
@@ -473,6 +484,7 @@ gnome-pilot		install
 vinagre		install
 dhcp3-common		install
 libedata-cal1.2-6		install
+subversion		install
 powernowd		install
 libsqlite3-0		install
 module-init-tools		install
@@ -594,6 +606,7 @@ libck-connector0		install
 libmysqlclient15off		install
 unixodbc		install
 libsmbios-bin		install
+libsvn1		install
 libdatrie0		install
 openssh-client		install
 libeel2-data		install
@@ -617,6 +630,7 @@ libgnomekbd-common		install
 libsexy2		install
 gedit-common		install
 gnome-utils		install
+libalut0		install
 vbetool		install
 rdate		install
 libcairomm-1.0-1		install
@@ -651,6 +665,7 @@ libxres1		install
 python-pgm		install
 human-theme		install
 acpid		install
+italc-client		install
 readline-common		install
 dbus		install
 udev		install
@@ -666,6 +681,7 @@ libmusicbrainz4c2a		install
 gnome-orca		install
 libnet-dbus-perl		install
 python-launchpad-bugs		install
+network-manager-vpnc		install
 fast-user-switch-applet		install
 time		install
 python-pyatspi		install
@@ -737,6 +753,7 @@ sun-java6-jre		install
 fnfxd		install
 capplets-data		install
 libpangomm-1.4-1		install
+libqtcore4		install
 libgnome2-vfs-perl		install
 libavahi-gobject0		install
 libwv-1.2-3		install
@@ -768,6 +785,7 @@ pciutils		install
 gnome-spell		install
 libjinglexmpp0.3-0		install
 giggle		install
+flightgear		install
 base-passwd		install
 espeak-data		install
 language-pack-es-base		install
@@ -895,6 +913,7 @@ pm-utils		install
 file		install
 python-pysqlite2		install
 gnome-app-install		install
+libqt4-sql		install
 libglib2.0-data		install
 pulseaudio-utils		install
 gnome-user-guide		install
@@ -951,6 +970,7 @@ libopal-2.2		install
 ucf		install
 nautilus-share		install
 libedataserverui1.2-8		install
+vpnc		install
 totem-gstreamer		install
 nvidia-173-modaliases		install
 contact-lookup-applet		install
@@ -969,6 +989,7 @@ libdvdread3		install
 python-launchpad-integration		install
 libedata-book1.2-2		install
 e2fslibs		install
+libqt4-xml		install
 evolution-data-server		install
 gettext-base		install
 zlib1g		install
@@ -1010,6 +1031,7 @@ libxcb-xlib0		install
 libjasper1		install
 gitk		install
 libgtop2-7		install
+libqt4-network		install
 libpng12-0		install
 upstart-logd		install
 ntfsprogs		install
@@ -1021,11 +1043,14 @@ libjpeg62		install
 libtext-wrapi18n-perl		install
 libgtkhtml-editor-common		install
 language-pack-gnome-es-base		install
+libqt4-designer		install
 libmpfr1ldbl		install
 xserver-xorg-video-neomagic		install
 python-setuptools		install
 yelp		install
+libgeoip1		install
 xfonts-utils		install
+nexuiz-data		install
 mono-runtime		install
 libperl5.10		install
 xserver-xorg-video-chips		install
@@ -1048,6 +1073,7 @@ laptop-detect		install
 ubiquity-ubuntu-artwork		install
 libldap-2.4-2		install
 gksu		install
+xqf		install
 libdaemon0		install
 libdeskbar-tracker		install
 libpam-ck-connector		install
@@ -1074,6 +1100,7 @@ tracker-search-tool		install
 libavahi-client3		install
 alsa-base		install
 libc6-dev		install
+libqtgui4		install
 screen-resolution-extra		install
 libpurple-bin		install
 gnome-netstatus-applet		install
@@ -1084,6 +1111,7 @@ libglib2.0-0		install
 ttf-indic-fonts-core		install
 tzdata		install
 liborbit2		install
+linux-backports-modules-2.6.27-11-generic		install
 policykit-gnome		install
 libcupsimage2		install
 tk8.4		install
@@ -1136,6 +1164,7 @@ xorg		install
 foomatic-db		install
 libsasl2-2		install
 ntpdate		install
+libpq5		install
 rss-glx		install
 libpt-1.10.10-plugins-v4l		install
 libgpgme11		install
@@ -1167,6 +1196,7 @@ ttf-arabeyes		install
 mount		install
 libpulse0		install
 libhtml-tree-perl		install
+resolvconf		install
 brasero		install
 linux-sound-base		install
 liboil0.3		install
@@ -1182,6 +1212,7 @@ hal-info		install
 libss2		install
 libgmime2.2-cil		install
 libgtkspell0		install
+italc-master		install
 compiz		install
 libxdamage1		install
 libxml2-utils		install
@@ -1222,11 +1253,13 @@ libisc44		install
 upstart		install
 sysv-rc		install
 sysklogd		install
+linux-backports-modules-intrepid-generic		install
 debconf-i18n		install
 python-xkit		install
 sqlite3		install
 busybox-initramfs		install
 esound-clients		install
+libqt4-script		install
 dbus-x11		install
 libxi6		install
 gstreamer0.10-gnomevfs		install
@@ -1250,6 +1283,7 @@ evolution-data-server-common		install
 libattr1		install
 firefox-3.0-branding		install
 libxp6		install
+libaudio2		install
 gimp-data		install
 compiz-fusion-plugins-main		install
 gzip		install
@@ -1266,6 +1300,7 @@ gnome-applets-data		install
 libgnomeprint2.2-0		install
 libgraphviz4		install
 anyremote		install
+plib1.8.4c2		install
 libxt6		install
 min12xxw		install
 language-pack-gnome-bn-base		install
@@ -1284,6 +1319,7 @@ libavahi-ui0		install
 libgstreamer-plugins-base0.10-0		install
 libreadline-ruby1.8		install
 transmission-common		install
+libaprutil1		install
 xserver-xorg-video-sisusb		install
 gnome-session		install
 mscompress		install
@@ -1371,6 +1407,8 @@ libvisual-0.4-plugins		install
 python-rdflib		install
 gsfonts-x11		install
 gnome-panel-data		install
+nexuiz		install
+nexuiz-music		install
 scim-bridge-client-gtk		install
 libgnomedesktop2.20-cil		install
 libpoppler-glib3		install
@@ -1378,7 +1416,9 @@ ssh-askpass-gnome		install
 language-pack-gnome-pt		install
 xserver-xorg-video-cirrus		install
 libdigest-sha1-perl		install
+simgear1.0.0		install
 xserver-xorg-video-intel		install
+qt4-qtconfig		install
 libgnomecups1.0-1		install
 gnupg		install
 libpisync1		install
