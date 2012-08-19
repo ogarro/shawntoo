@@ -2,6 +2,9 @@
  xcopy
  unstopcp
 
+[Solaris]
+ cp
+
 [Linux]
  rsync -a
  scp -2 file1 user@host:folder/file2

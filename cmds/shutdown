@@ -1,5 +1,8 @@
 [Windows]
  bin = shutdown.exe
 
+[Solaris]
+ bin = shutdown
+
 [Linux]
  bin = shutdown

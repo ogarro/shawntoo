@@ -2,6 +2,8 @@
  cmd = chkdsk /r
  cmd = sfc /scannow
 
+[Solaris]
+ cmd =
+
 [Linux]
  cmd = dpkg --configure -a
- 

@@ -4,3 +4,5 @@
 [Linux]
  bin = gnome-screensaver-command -d
 
+[Solaris]
+ bin = 

@@ -2,5 +2,8 @@
  keys = Win+L
  bin = 
 
+[Solaris]
+ 
+
 [Linux]
  bin = gnome-screensaver-command -l

@@ -2,6 +2,9 @@
  ipconfig
  net use n: \\computername\share
 
+[Solaris]
+ 
+
 [Linux]
  ifconfig
  iwconfig

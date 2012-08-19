@@ -1,2 +1,5 @@
-tar -u -f backup-x.xx.tar -v /home/htdocs/{sites,modules,files,favicon.ico}
-curl http://www.somewhere.com/mymodule/release.tar.gz | tar zxvf -
+[backup]
+ tar -u -f backup-x.xx.tar -v /home/htdocs/{sites,modules,files,favicon.ico}
+
+[modules]
+ curl http://www.somewhere.com/mymodule/release.tar.gz | tar zxvf -

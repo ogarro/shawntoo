@@ -1,7 +1,11 @@
-[Windows]
- taskman
 
 [Linux]
  top
  ps
  pstree
+
+[Solaris]
+ prstat
+
+[Windows]
+ taskman

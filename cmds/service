@@ -1,0 +1,10 @@
+[Linux]
+ service
+ 
+[Solaris]
+ 
+[Windows]
+ net start
+ net start [service]
+ net stop
+ net stop [service]
