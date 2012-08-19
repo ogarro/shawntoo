@@ -1,0 +1,13 @@
+[Linux]
+ dpkg
+ apt-get
+ aptitude
+ rpm
+ yum
+ emerge
+
+[Solaris]
+ pkginfo
+ showrev -p
+ patchadd -p
+ pkg list

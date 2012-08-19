@@ -3,7 +3,7 @@
  cmd = sfc /scannow
 
 [Solaris]
- cmd =
+ cmd = truss
 
 [Linux]
  cmd = dpkg --configure -a
