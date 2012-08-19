@@ -1,8 +1,11 @@
-[Windows]
- bin = shutdown.exe
+[Linux]
+ shutdown -hP now
+ shutdown -r
 
 [Solaris]
- bin = shutdown
+ shutdown
+ shutdown -y -g5 -i6
+ init 6
 
-[Linux]
- bin = shutdown
+[Windows]
+ shutdown.exe [-i | -l | -s | -r | -a][-f][-m \\computername][-t xx][-c "comment"][-d [u][p]:xx:yy]

@@ -1,0 +1,19 @@
+[Linux]
+ 
+[Solaris]
+ boot
+ boot -r
+ boot cdrom
+ boot net
+ boot net - install
+ init 0
+ init 5
+ init s
+ init S
+ eeprom
+
+[Windows]
+ F8
+ F9
+ F10
+ F12
