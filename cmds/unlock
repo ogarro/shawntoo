@@ -1,8 +1,8 @@
-[Windows]
- bin = 
-
 [Linux]
  bin = gnome-screensaver-command -d
 
 [Solaris]
+ bin = 
+
+[Windows]
  bin = 

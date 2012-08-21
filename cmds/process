@@ -2,6 +2,7 @@
 [Linux]
  top
  ps
+ ps -efH 
  pstree
 
 [Solaris]

@@ -1,6 +1,7 @@
 [Linux]
  shutdown -hP now
  shutdown -r
+ shutdown -Fr now
 
 [Solaris]
  shutdown

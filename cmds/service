@@ -1,8 +1,11 @@
 [Linux]
- service
+ service ssh status
+ service --status-all
+ service ssh restart
  
 [Solaris]
  
+
 [Windows]
  net start
  net start [service]

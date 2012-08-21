@@ -1,6 +1,16 @@
 [Linux]
- 
+ kernel 1
+ kernel single
+
 [Solaris]
+ beadm
+ beadm list
+ beadm create Test1
+ reboot -e Test1
+ 
+ reset SYS
+ deadm mount Test1 /Test1FS
+
  boot
  boot -r
  boot cdrom

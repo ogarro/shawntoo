@@ -1,0 +1,24 @@
+[Linux]
+ 
+
+[Solaris]
+ dladm show-phys
+ zoneadm list -cv
+ >create -b
+ >set brand=solaris10
+ >set zonepath=/export/FSforZone
+ >set autoboot=true
+ >add net
+ :net>set physical=net0
+ :net>end
+ >info
+ >verify
+ >commit
+ >exit
+ zoneadm -z clonakilty-z1 install -F -a /net/cessit.irela
+ zoneadm list -cv
+ zoneadm -z clonakilty-z1 boot
+ zoneadm list -cv
+ 
+
+[Windows]

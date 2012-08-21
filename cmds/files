@@ -4,6 +4,7 @@
 
 [Solaris]
  cp
+ lsof
 
 [Linux]
  rsync -a

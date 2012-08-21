@@ -1,0 +1,26 @@
+beadm
+mkdir /export/ipkg_z3
+zoneadm list -cv
+zonecfg -z clonakilty-z3
+>create
+>set zonepath=/export/ipkg_z3
+>autoboot=true
+>commit
+>exit
+zoneadm list -cv
+zoneadm -z clonakilty-z3 install
+zoneadm list -cv
+zoneadm -z clonakilty-z3 boot
+zoneadm list -cv
+uname -a
+zlogin clonakilty-z3
+$uname -a
+$beadm
+$beadm list
+$beadm create Test1
+$beadm list
+$beadm activate Test1
+$beadm list
+$reboot
+zlogin clonakilty-z3
+$beadm list

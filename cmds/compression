@@ -1,0 +1,14 @@
+[Linux]
+ tar
+ zip
+ gzip
+ bzip2  	
+
+[Solaris]
+ tar [options] [tarfile] [files]
+ compress [files]
+ uncompress
+
+[Windows]
+ compact
+ compress [https://www.microsoft.com/en-us/download/details.aspx?id=17657]
