@@ -3,7 +3,7 @@
  bin = 
 
 [Solaris]
- Ctrl+z
+ 
 
 [Linux]
  bin = gnome-screensaver-command -l

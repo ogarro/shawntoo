@@ -1,1 +1,29 @@
+[Linux]
+ kvm
+ xen
 
+[Solaris]
+ dladm show-phys
+ zoneadm list -cv
+ zonecfg -z clonakilty-z1
+ >create -b
+ >set brand=solaris10
+ >set zonepath=/export/FSforZone
+ >set autoboot=true
+ >add net
+ :net>set addr=10.16.122.11
+ :net>set physical=net0
+ :net>end
+ >info
+ >verify
+ >set ip-type=shared
+ >commit
+ >exit
+ zoneadm list -cv
+ zoneadm -z clonakilty-z1 install -F -u -a /net/cesspit.irela
+ zoneadm list -cv
+ zoneadm -z clonakilty-z1 boot
+ zoneadm list -cv
+ zlogin -C clonakilty-z1
+ 
+ uname -a

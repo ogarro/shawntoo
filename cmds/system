@@ -1,10 +1,10 @@
 [Linux]
- cmd = dpkg --configure -a
+ dpkg --configure -a
 
 [Solaris]
  truss
  prtdiag | grep System
 
 [Windows]
- cmd = chkdsk /r
- cmd = sfc /scannow
+ chkdsk /r
+ sfc /scannow

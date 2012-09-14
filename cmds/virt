@@ -15,9 +15,9 @@
  >verify
  >commit
  >exit
- zoneadm -z clonakilty-z1 install -F -a /net/cessit.irela
+ zoneadm -z clonakilty-z3 install -F -a /net/cessit.irela
  zoneadm list -cv
- zoneadm -z clonakilty-z1 boot
+ zoneadm -z clonakilty-z3 boot
  zoneadm list -cv
  
 
