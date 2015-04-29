@@ -1,28 +1,41 @@
+[Android]
+
 [Linux]
- http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/
- http://www.thegeekstuff.com/2010/11/50-linux-commands/
  http://www.thegeekstuff.com/2008/08/turbocharge-putty-with-12-powerful-add-ons-software-for-geeks-3/
+ http://www.thegeekstuff.com/2010/11/50-linux-commands/
+ http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials/
  http://www.thegeekstuff.com/2011/06/iptables-rules-examples/
-  
+ http://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/
+ 
 
 [Solaris]
+ http://smartos.org/blog/
+ http://www.stokely.com/
+ http://www.harmanresearch.com/solaris/
  http://www.sundot.com/unix/solaris/handysol.shtml
  http://it.toolbox.com/wiki/index.php/Solaris_Commands
  http://very.thoughtful-solutions.info/publications/sunadmin.pdf
- http://www.harmanresearch.com/solaris/
  http://www.adminschoice.com/unix-commands-tutorial
- http://www.oracle.com/technetwork/server-storage/solaris11/documentation/solaris-11-cheat-sheet-1556378.pdf
- http://www.stokely.com/
  http://dbaspot.com/solaris/150133-watch-command-solaris.html
- http://smartos.org/blog/
  http://www.oracle.com/us/products/servers-storage/solaris/oracle-solaris-11-ds-186774.pdf
+ http://www.oracle.com/technetwork/server-storage/solaris11/documentation/solaris-11-cheat-sheet-1556378.pdf
 
-[Web]
- http://www.petefreitag.com/cheatsheets/
- https://cwiki.apache.org/confluence/display/WAVE/Wave+Summit+Talks
-
+[Systems]
+ http://ostatic.com/
+ http://distrowatch.com
+ http://www.osnews.com
+ 
 [Windows]
- http://channel9.msdn.com
+ http://channel9.msdn.com/
  http://www.sysinternals.com
  http://www.technet.com
- 
+
+[Web]
+ https://letsencrypt.org/
+ https://hacks.mozilla.org/
+ http://www.petefreitag.com/cheatsheets/
+ https://cwiki.apache.org/confluence/display/WAVE/Wave+Summit+Talks
+ https://hacks.mozilla.org/2012/12/firefox-os-simulator-1-0-is-here/
+ https://hacks.mozilla.org/2013/01/building-a-node-js-server-that-wont-melt-a-node-js-holiday-season-part-5/
+ http://www.lukew.com/ff/entry.asp?1649
+ http://www.lukew.com/ff/entry.asp?1436
