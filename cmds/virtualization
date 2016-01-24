@@ -1,6 +1,7 @@
 [Linux]
  kvm
  xen
+ oVirt
 
 [Solaris]
  dladm show-phys
@@ -25,5 +26,8 @@
  zoneadm -z clonakilty-z1 boot
  zoneadm list -cv
  zlogin -C clonakilty-z1
- 
+
  uname -a
+
+[Windows]
+ Hyper-V

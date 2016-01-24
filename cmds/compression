@@ -2,7 +2,7 @@
  tar
  zip
  gzip
- bzip2  	
+ bzip2
 
 [Solaris]
  tar [options] [tarfile] [files]
@@ -12,3 +12,4 @@
 [Windows]
  compact
  compress [https://www.microsoft.com/en-us/download/details.aspx?id=17657]
+ makecab

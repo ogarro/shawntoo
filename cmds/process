@@ -1,11 +1,15 @@
 [Linux]
  top
  ps
- ps -efH 
+ ps -efH
  pstree
 
 [Solaris]
  prstat
+ ps
+ ptree
+ truss
 
 [Windows]
  taskman
+ get-process

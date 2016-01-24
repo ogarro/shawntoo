@@ -2,12 +2,18 @@
  service ssh status
  service --status-all
  service ssh restart
- 
+
 [Solaris]
- 
+ svcadm
+ svcs
 
 [Windows]
  net start
  net start [service]
+ start-service
+
+ restart-service
+
  net stop
  net stop [service]
+ stop-service

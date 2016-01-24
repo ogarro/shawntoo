@@ -7,9 +7,14 @@
  emerge
 
 [Solaris]
- pkgadd -d 
+ pkgadd -d
  pkginfo
  showrev -p
  patchadd -p
 
  pkg list
+
+
+[Windows]
+ msiexec /i
+ msiexec /x

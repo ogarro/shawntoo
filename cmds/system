@@ -1,4 +1,6 @@
 [Linux]
+ dmesg
+ strace
  dpkg --configure -a
 
 [Solaris]
